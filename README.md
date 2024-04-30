@@ -11,4 +11,7 @@
 <button id="copy-button" onclick="copyToClipboard()">Copy Command</button>
 &nbsp<h3>1.Clone the repository:</h3>
 <h4>git clone https://github.com/your-username/image-classification-web-app.git</h4>
-
+&nbsp<h3>2.Navigate to the project directory:</h3>
+<h4>cd image-classification-web-app</h4>
+&nbsp<h3>3.Install the required dependencies:</h3>
+<h4>pip install -r requirements.txt</h4>
