@@ -18,4 +18,4 @@
 <h3>Usage</h3>
 <h4>Run the Streamlit app using the following command:</h4>
 <h4>streamlit run app.py</h4>
-&nbsp&nbsp<h4>Once the app is running, you can access it in your web browser at http://localhost:8501.</h4>
+<h4>Once the app is running, you can access it in your web browser at http://localhost:8501.</h4>
