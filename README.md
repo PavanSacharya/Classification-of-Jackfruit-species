@@ -19,4 +19,4 @@
 <h4>Run the Streamlit app using the following command:</h4>
 <h4>streamlit run app.py</h4>
 <h4>Once the app is running, you can access it in your web browser at http://localhost:8501.</h4>
-<img src="https://github.com/PavanSacharya/Classification-of-Jackfruit-species/assets/159934757/89f2b06e-394e-4bd2-891d-f24b0c11af37" alt="Image" width="100" height="100">
+<img src="https://github.com/PavanSacharya/Hotel-Ayodhya/assets/159934757/283424bc-3b4b-4072-b42f-78faec723ce3" alt="hotel" width="500" height="300">
