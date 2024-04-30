@@ -5,4 +5,7 @@
   <li>Upload an image and get the predicted class.</li>
   <li>Supports JPG, PNG, and JPEG image formats.</li>
 </ul>
-
+<h3>Installation</h3>
+<h4>To run the application locally, follow these steps:</h4>
+<h3>Clone the repository:</h3>
+git clone https://github.com/your-username/image-classification-web-app.git
