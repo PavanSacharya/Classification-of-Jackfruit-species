@@ -15,7 +15,7 @@
 <h4>cd image-classification-web-app</h4>
 &nbsp<h3>3.Install the required dependencies:</h3>
 <h4>pip install -r requirements.txt</h4>
-<h3>Usage</h3>
+<h3><B>Usage</B></h3>
 <h4>Run the Streamlit app using the following command:</h4>
 <h4>streamlit run app.py</h4>
 <h4>Once the app is running, you can access it in your web browser at http://localhost:8501.</h4>
