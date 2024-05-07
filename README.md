@@ -18,7 +18,6 @@
 <h3><B>Usage</B></h3>
 <h4>Run the Streamlit app using the following command:</h4>
 <h4>streamlit run app.py</h4>
-<h4>Once the app is running, you can access it in your web browser at http://localhost:8501.</h4>
-![jackfruit](https://github.com/PavanSacharya/Classification-of-Jackfruit-species/assets/159934757/a7b9b5ee-b94a-4f0d-8c74-cd563646dcad)
+
 
 
