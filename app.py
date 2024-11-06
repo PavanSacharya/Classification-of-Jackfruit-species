@@ -1,11 +1,22 @@
 import streamlit as st
 import cv2
 import numpy as np
+import requests
 from tensorflow.keras.models import load_model
+from io import BytesIO
 
-# Load the model
-model = load_model(r"https://github.com/PavanSacharya/Classification-of-Jackfruit-species/blob/main/Model/trainedmodel.h5")
-classes = ['DengSurya', 'IAHSManmohan', 'Prakashchandra', 'VietnamEarly']  # Replace with your actual classes
+# Download and load the model
+@st.cache_resource
+def download_and_load_model():
+    url = "https://github.com/PavanSacharya/Classification-of-Jackfruit-species/raw/main/Model/trainedmodel.h5"
+    response = requests.get(url)
+    with open("trainedmodel.h5", "wb") as f:
+        f.write(response.content)
+    model = load_model("trainedmodel.h5")
+    return model
+
+model = download_and_load_model()
+classes = ['DengSurya', 'IAHSManmohan', 'Prakashchandra', 'VietnamEarly']
 
 def load_and_predict_image(image_data, model, classes):
     byte_stream = np.asarray(bytearray(image_data.read()), dtype=np.uint8)
@@ -55,4 +66,3 @@ if uploaded_file is not None:
     original_image, predicted_class = load_and_predict_image(uploaded_file, model, classes)
     st.image(original_image, width=300, caption='Uploaded Image', output_format='PNG')
     st.markdown(f'<div class="prediction">Predicted Class: {predicted_class}</div>', unsafe_allow_html=True)
-
