@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Load the model
-model = load_modelhttps:(r"//github.com/PavanSacharya/Classification-of-Jackfruit-species/blob/main/Model/trainedmodel.h5")
+model = load_modelhttps:(r"https://github.com/PavanSacharya/Classification-of-Jackfruit-species/blob/main/Model/trainedmodel.h5")
 classes = ['DengSurya', 'IAHSManmohan', 'Prakashchandra', 'VietnamEarly']  # Replace with your actual classes
 
 def load_and_predict_image(image_data, model, classes):
