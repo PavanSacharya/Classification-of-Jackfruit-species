@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Load the model
-model = load_model(r"D:\jackintern\trainedmodel.h5")
+model = load_model("model/trainedmodel.h5")
 classes = ['DengSurya', 'IAHSManmohan', 'Prakashchandra', 'VietnamEarly']  # Replace with your actual classes
 
 def load_and_predict_image(image_data, model, classes):
