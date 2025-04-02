@@ -1,13 +1,4 @@
-venv\Scripts\activate 
-pip install setuptools
-pip install setuptools==58.0.4
-pip install --upgrade pip setuptools wheel
 streamlit
-numpy==1.23.5
-opencv-python-headless
-scikit-learn
-matplotlib
-tensorflow==2.11.0
-pandas
-pillow
-protobuf==3.20.3
+opencv-python
+numpy
+tensorflow
