@@ -1,11 +1,10 @@
 import streamlit as st
 import cv2
 import numpy as np
-from tensorflow import keras
 from tensorflow.keras.models import load_model
 
-model = load_model(r"D:\jackintern\trainedmodel.h5")
-
+# Load the model
+model = load_model("trainedmodel.h5")
 classes = ['DengSurya', 'IAHSManmohan', 'Prakashchandra', 'VietnamEarly']  # Replace with your actual classes
 
 def load_and_predict_image(image_data, model, classes):
