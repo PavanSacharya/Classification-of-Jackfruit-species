@@ -3,6 +3,8 @@ numpy
 opencv-python-headless
 scikit-learn
 matplotlib
-tensorflow==2.10.0
+tensorflow==2.11.0
 pandas
 pillow
+web: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
+
