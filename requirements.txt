@@ -1,11 +1,9 @@
 streamlit
-numpy
+numpy==1.23.5
 opencv-python-headless
 scikit-learn
 matplotlib
-numpy==1.23.5
-protobuf==3.20.3
 tensorflow==2.11.0
 pandas
 pillow
-web: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
+protobuf==3.20.3
